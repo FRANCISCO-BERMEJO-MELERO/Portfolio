@@ -1,0 +1,32 @@
+.links {
+    color: #ededed;
+}
+.links:hover {
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    opacity: 1;
+}
+
+.links:after {
+    position: absolute;
+    content: "";
+    background-color: #af9d00;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    scale: 0;
+    transform-origin: center;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.links:hover::after {
+    scale: 1
+}
