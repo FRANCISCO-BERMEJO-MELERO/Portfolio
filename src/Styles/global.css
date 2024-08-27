@@ -30,3 +30,14 @@
 .links:hover::after {
     scale: 1
 }
+
+/* Añade esto a tu archivo CSS global o módulo */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .cursor-bounce {
+    animation: bounce 1s infinite;
+  }
+  
