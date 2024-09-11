@@ -7,9 +7,9 @@ const Sobremi = () => {
     return (
         <>
             <div class="mx-auto flex w-full items-center max-w-3xl justify-center my-20">
-                <div className=' mt-12 justify-center grid h-auto mx-auto  z-10 relative p-[1.5px] w-full items-center overflow-hidden rounded-xl'>
-                    <div class="animate-rotate absolute inset-0 h-auto w-auto rounded-full bg-[conic-gradient(#af9d00_20deg,transparent_120deg)]"></div>
-                    <div className='relative z-20 grid w-full rounded-[0.60rem] p-2 bg-slate-600'>
+                <div className=' mt-12 justify-center grid h-auto mx-auto  z-10 relative p-[2.5px] w-full items-center overflow-hidden rounded-xl'>
+                    <div class="animate-rotate absolute inset-0 h-auto w-auto rounded-full bg-[conic-gradient(#af9d00_20deg,transparent_120deg)] "></div>
+                    <div className='relative z-20 grid w-full rounded-[0.60rem] p-2 bg-gray-900 border'>
                         <h1 className='text-2xl'>Sobre mim</h1>
                         <p>Sou um desenvolvedor front-end focado em ReactJS.</p>
                         <p>Meu objetivo é compartilhar conhecimentos e tornar os meus projetos mais interessantes.

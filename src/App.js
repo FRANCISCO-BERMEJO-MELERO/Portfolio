@@ -2,6 +2,8 @@ import Navbar from "./Components/navbar";
 import Sobremi from "./Components/sobremi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Proyectos from "./Components/proyectos";
+import CardModal from "./Components/card-modal";
 
 
 function App() {
@@ -28,7 +30,8 @@ function App() {
         </button>
       </div>
       <Sobremi></Sobremi>
-
+      <Proyectos></Proyectos>
+      <CardModal></CardModal>
 
     </div>
   );
