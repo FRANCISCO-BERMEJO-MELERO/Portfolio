@@ -4,17 +4,20 @@ import "../Styles/global.css";
 const Navbar = () => {
     return (
         <>
-        <div className=' w-full z-50 fixed border-b bg-slate-900' >
-            <div className=' mx-auto w-4/12 justify-center my-5 flex gap-8 rounded-full  text-xs '>
-                <button> <p className=' opacity-60 p-2 links relative cursor-pointer'> {'<'} Inicio{'/'}{'>'} </p></button>
-                <button><p className=' opacity-60 p-2 links relative '> {'<'} Sobre mi{'/'}{'>'} </p></button>
-                <button><p className=' opacity-60 p-2 links relative'> {'<'} Sobre mi{'/'}{'>'} </p></button>
+        <nav className="w-full z-50 fixed border-b border-zinc-800 bg-zinc-900/80 backdrop-blur-sm">
+            <div className="mx-auto max-w-4xl flex justify-end gap-6 py-4 px-6">
+                <a href="#inicio" className="opacity-60 p-2 links relative cursor-pointer text-sm hover:opacity-100 transition-opacity duration-300">
+                    {'<'} Inicio {'/'}{'>'}
+                </a>
+                <a href="#sobre-mi" className="opacity-60 p-2 links relative cursor-pointer text-sm hover:opacity-100 transition-opacity duration-300">
+                    {'<'} Sobre mí {'/'}{'>'}
+                </a>
+                <a href="#proyectos" className="opacity-60 p-2 links relative cursor-pointer text-sm hover:opacity-100 transition-opacity duration-300">
+                    {'<'} Proyectos {'/'}{'>'}
+                </a>
             </div>
-        </div>
-        <div className='  mb-20 ' >
-            <div className=' p-8 '>
-            </div>
-        </div>
+        </nav>
+        <div className="h-16"></div>
         </>
         
 

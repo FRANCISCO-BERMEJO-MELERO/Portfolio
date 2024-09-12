@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{css,js,jsx,ts,tsx}",
+    "./node_modules/flowbite/**/*.js"  // Asegúrate de incluir este path para Flowbite
   ],
   darkMode: "class",
   theme: {
@@ -17,5 +18,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')  // Usa el paquete correcto
+  ],
 }

@@ -1,3 +1,4 @@
+
 .links {
     color: #ededed;
 }
@@ -13,7 +14,7 @@
 .links:after {
     position: absolute;
     content: "";
-    background-color: #af9d00;
+    background-color: rgb(161 161 170);
     height: 1px;
     width: 100%;
     bottom: -5px;
