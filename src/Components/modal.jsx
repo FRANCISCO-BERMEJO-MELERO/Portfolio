@@ -18,7 +18,7 @@ const Modal = ({ isOpen, closeModal }) => {
     return ReactDOM.createPortal(
         <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50 backdrop-blur-md">
             <div className="relative rounded-xl shadow-2xl p-6 w-full md:max-w-[40%] max-h-[90%] max-w-[95%] h-full border border-zinc-700 bg-gradient-to-br from-zinc-900 to-zinc-800 overflow-y-auto">
-                <button className="absolute top-0 right-2 text-zinc-400 hover:text-zinc-200 transition-colors duration-300" onClick={closeModal}>
+                <button className="absolute top-6 right-8 text-zinc-200 hover:text-zinc-400 transition-colors duration-300" onClick={closeModal}>
                     <span className="text-3xl">&times;</span>
                 </button>
                 <div className="flex flex-col gap-6">
