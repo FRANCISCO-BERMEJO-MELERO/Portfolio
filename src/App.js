@@ -25,7 +25,7 @@ function App() {
         </div>
         <div className="w-30 mx-auto h-full">
             <button className=" rounded-xl  bg-slate-300 cursor-pointer font-bold border-none" >
-                <a className="block rounded-xl bg-zinc-900 box-border border-2 border-zinc-300 py-3 px-6 text-white -translate-y-1 duration-100 hover:-translate-y-[0.33em] active:translate-y-0" download={'CV.pdf'} href='./download/cv.pdf'>Descargar CV</a>
+                <a className="block rounded-xl bg-zinc-900 box-border border-2 border-zinc-300 py-3 px-6 text-white -translate-y-1 duration-100 hover:-translate-y-[0.33em] active:translate-y-0" download={'CV.pdf'} href='./download/cv.pdf'>Descargar CV </a>
             </button>
         </div>
         
