@@ -31,3 +31,18 @@
 .links:hover::after {
     scale: 1
 }
+
+.iconos{
+    font-size: 1.25rem;
+    filter: grayscale(0);
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconos:hover{
+    filter: grayscale(60%);
+}
+
+.iconos-card{
+    font-size: 1.25rem;
+}

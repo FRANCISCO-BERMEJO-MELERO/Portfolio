@@ -1,8 +1,10 @@
 import Navbar from "./Components/navbar";
+import './Styles/global.css';
 import Sobremi from "./Components/sobremi";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Proyectos from "./Components/proyectos";
+import Tecnologias from "./Components/tecnologias";
+
+
 
 
 function App() {
@@ -18,8 +20,8 @@ function App() {
           <hr></hr>
           <p className="text-lg my-2">Estudiante de Desarrollo de Aplicaciones Multiplataforma </p>
           <div className=' gap-3 flex '>
-            <a className="hover:text-zinc-50" href="google.com"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a>
-            <a className="hover:text-zinc-50" href="google.com"><FontAwesomeIcon icon={faGithub} size="lg" /></a>
+            <a className="text-xl" href="google.com"><img src='/icons/linkedin.svg' className="iconos hover:scale-110" alt="github"/></a>
+            <a href="google.com"><img src='icons/github-dark.svg' className="iconos hover:scale-110" alt="github"/></a>
           </div>
           </span>
         </div>
@@ -32,7 +34,8 @@ function App() {
       </div>
       <Sobremi></Sobremi>
       <Proyectos></Proyectos>
-
+      <Tecnologias></Tecnologias>
+      <img src='./Components/icons/react.svg' alt='react'></img>
     </div>
   );
 }
