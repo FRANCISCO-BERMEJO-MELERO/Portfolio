@@ -3,7 +3,6 @@ import './Styles/global.css';
 import Sobremi from "./Components/sobremi";
 import Proyectos from "./Components/proyectos";
 import Tecnologias from "./Components/tecnologias";
-import { IconCloudDemo } from "./Components/prueba.jsx";
 
 
 
