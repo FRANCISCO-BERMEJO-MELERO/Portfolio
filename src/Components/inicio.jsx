@@ -11,8 +11,8 @@ const Inicio = () => {
                         <hr className="my-4"/>
                         <p className="text-base md:text-lg my-2">Estudiante de Desarrollo de Aplicaciones Multiplataforma</p>
                         <div className='gap-3 flex justify-center md:justify-start mt-4'>
-                            <a className="text-xl" href="google.com"><img src='/icons/linkedin.svg' className="iconos hover:scale-110 w-8 h-8" alt="linkedin"/></a>
-                            <a href="google.com"><img src='icons/github-dark.svg' className="iconos hover:scale-110 w-8 h-8" alt="github"/></a>
+                            <a className="text-xl" href="https://www.linkedin.com/in/francisco-bermejo-melero-250669302/" target="_blank" rel="noopener noreferrer"><img src='/icons/linkedin.svg' className="iconos hover:scale-110 w-8 h-8" alt="linkedin"/></a>
+                            <a href="https://github.com/FRANCISCO-BERMEJO-MELERO" target="_blank" rel="noopener noreferrer"><img src='icons/github-dark.svg' className="iconos hover:scale-110 w-8 h-8" alt="github"/></a>
                         </div>
                     </span>
                 </div>

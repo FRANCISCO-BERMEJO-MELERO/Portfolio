@@ -1,21 +1,26 @@
 import IconCloud from "../@/components/magicui/icon-cloud";
 
 const slugs = [
-  "typescript",
   "javascript",
-  "dart",
+  "visualstudiocode",
   "java",
   "react",
-  "flutter",
-  "android",
+  "astro",
   "html5",
   "css3",
-  "nodedotjs",
-  "gitlab",
-  "visualstudiocode",
-  "androidstudio",
-  "sonarqube",
+  "python",
+  "git",
+  "github",
+  "windows",
   "figma",
+  "tailwindcss",
+  "materializecss",
+  "bootstrap",
+  "c",
+  "mysql",
+  "slack",
+  "discord",
+  ""
 ];
 
 export function IconCloudDemo() {
