@@ -7,7 +7,7 @@ const Sobremi = () => {
         <>
             <div class="mx-auto  w-full max-w-4xl items-center  justify-center my-10">
             <div className='justify-start grid gap-6 mb-10'>
-                <h1 className='text-5xl tex'>{'<'} <span className='text-zinc-50'>Sobre mi</span> {'/'}{'>'}</h1>
+                <h1 className='md:text-5xl text-3xl '>{'<'} <span className='text-zinc-50'>Sobre mi</span> {'/>'}</h1>
                 <hr className=' border-zinc-400'></hr>
             </div>
                 <div className=' mt-12 justify-center grid h-auto mx-auto  z-10 relative p-[2.5px] w-full items-center overflow-hidden rounded-xl'>
