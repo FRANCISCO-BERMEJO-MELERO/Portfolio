@@ -2,13 +2,14 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='h-20 w-full border-t-2 border-zinc-800  backdrop-blur-sm justify-center items-center flex gap-4'>
-            <p className='text-zinc-400 text-center text-sm'><span className='text-zinc-500 text-xl'>©</span> Todos los derechos reservados</p>
-            <p className='text-zinc-400 text-center text-xl'>|</p>
-            <p className='text-zinc-400 text-center text-s'>Francisco Bermejo Melero</p>
-            <div className='flex gap-4'>
-                <div className='text-xl'></div>
-                <a href='https://github.com/FranciscoBermejoMelero' className='  hover:scale-110' target='_blank' rel='noopener noreferrer'>
+        <div className='min-h-20 w-full border-t-2 border-zinc-800 backdrop-blur-sm flex flex-col md:flex-row justify-center items-center gap-4 py-4 px-2'>
+            <div className='flex flex-col md:flex-row items-center gap-2 md:gap-4'>
+                <p className='text-zinc-400 text-center text-sm'><span className='text-zinc-500 text-xl'>©</span> Todos los derechos reservados</p>
+                <p className='text-zinc-400 text-center text-xl hidden md:block'>|</p>
+                <p className='text-zinc-400 text-center text-s'>Francisco Bermejo Melero</p>
+            </div>
+            <div className='flex gap-4 mt-2 md:mt-0'>
+                <a href='https://github.com/FranciscoBermejoMelero' className='hover:scale-110' target='_blank' rel='noopener noreferrer'>
                 <svg
                     viewBox="0 0 256 250"
                     width="256"
@@ -23,7 +24,7 @@ const Footer = () => {
                 </svg>
                 </a>
                 
-                <a href='https://www.linkedin.com/in/francisco-bermejo-melero-9b2b3b25a/' className=' grayscale hover:scale-110' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.linkedin.com/in/francisco-bermejo-melero-9b2b3b25a/' className='grayscale hover:scale-110' target='_blank' rel='noopener noreferrer'>
                     <img src='/icons/linkedin.svg' alt='LinkedIn' className='w-5 h-5' />
                 </a>
             </div>

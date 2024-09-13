@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacto = () => {
     return (
-        <div className='h-screen md:w-full w-[80%]  max-w-4xl mx-auto md:mt-40 mt-20 '>
+        <div className='h-screen md:w-full w-[80%]  max-w-4xl mx-auto md:mt-20 mt-10 '>
         <div className='justify-center grid gap-2'>
             <h1 className='text-3xl md:text-5xl'>{'<'} <span className='text-zinc-50'>Contacto</span> {'/>'}</h1>
             <hr className='h-1 w-full border-zinc-400'></hr>
