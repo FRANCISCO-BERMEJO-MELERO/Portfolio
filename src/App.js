@@ -3,6 +3,7 @@ import './Styles/global.css';
 import Sobremi from "./Components/sobremi";
 import Proyectos from "./Components/proyectos";
 import Tecnologias from "./Components/tecnologias";
+import { IconCloudDemo } from "./Components/prueba.jsx";
 
 
 
@@ -35,7 +36,6 @@ function App() {
       <Sobremi></Sobremi>
       <Proyectos></Proyectos>
       <Tecnologias></Tecnologias>
-      <img src='./Components/icons/react.svg' alt='react'></img>
     </div>
   );
 }

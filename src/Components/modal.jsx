@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 
+
 const Modal = ({ isOpen, closeModal, titulo, explicacion, tecnologias = [] }) => {
     if (!isOpen) return null;
 
