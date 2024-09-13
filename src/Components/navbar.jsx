@@ -22,14 +22,14 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="flex gap-2 md:gap-6">
-                    <a href="#inicio" className="opacity-60 p-1 links relative cursor-pointer text-xs md:text-sm hover:opacity-100 transition-opacity duration-300 hover:text-zinc-300">
-                        {'<'}Inicio{'>'}
-                    </a>
                     <a href="#sobre-mi" className="opacity-60 p-1 links relative cursor-pointer text-xs md:text-sm hover:opacity-100 transition-opacity duration-300 hover:text-zinc-300">
                         {'<'}Sobre mí{'>'}
                     </a>
                     <a href="#proyectos" className="opacity-60 p-1 links relative cursor-pointer text-xs md:text-sm hover:opacity-100 transition-opacity duration-300 hover:text-zinc-300">
                         {'<'}Proyectos{'>'}
+                    </a>
+                    <a href="#proyectos" className="opacity-60 p-1 links relative cursor-pointer text-xs md:text-sm hover:opacity-100 transition-opacity duration-300 hover:text-zinc-300">
+                        {'<'}Contacto{'>'}
                     </a>
                 </div>
             </div>

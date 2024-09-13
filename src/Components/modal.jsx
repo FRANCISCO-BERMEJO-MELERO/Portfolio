@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 
-const Modal = ({ isOpen, closeModal, titulo, explicacion, tecnologias = [] }) => {
+const Modal = ({ isOpen, closeModal, img, titulo, explicacion, tecnologias = [] }) => {
     if (!isOpen) return null;
 
     return ReactDOM.createPortal(
@@ -12,7 +12,7 @@ const Modal = ({ isOpen, closeModal, titulo, explicacion, tecnologias = [] }) =>
                     <span className="text-3xl">&times;</span>
                 </button>
                 <div className="flex flex-col gap-6">
-                    <img src="https://t4.ftcdn.net/jpg/02/89/98/37/360_F_289983793_oZPL25vmImtNTwpBLCoC1wMgTUx0yDbd.jpg" alt="" className="w-full rounded-lg shadow-md object-cover h-64"></img>
+                    <img src={img} alt="" className="w-full rounded-lg shadow-md object-cover h-64"></img>
                     <div className="space-y-4">
                         <h2 className="text-4xl text-zinc-50 font-bold text-center">
                             {titulo}

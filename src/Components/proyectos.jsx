@@ -9,12 +9,12 @@ const Proyectos = () => {
                 <hr className='h-1 w-full border-zinc-400'></hr>
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7'>
-                <CardModal titulo='App Luna' texto='' explicacion='' img='' iconos={["React", "Nodejs"]} />
-                <CardModal titulo='App Luna' texto='' explicacion='' img='' iconos={["React", "Nodejs"]} />
-                <CardModal titulo='App Luna' texto='' explicacion='' img='' iconos={["React", "Nodejs"]} />
-                <CardModal titulo='App Luna' texto='' explicacion='' img='' iconos={["React", "Nodejs"]} />
-                <CardModal titulo='App Luna' texto='' explicacion='' img='' iconos={["React", "Nodejs"]} />
-                <CardModal titulo='App Luna' texto='' explicacion='' img='' iconos={["React", "Nodejs"]} />
+                <CardModal titulo='Coming Soon' texto='El proyecto aun no esta desarrollado' explicacion='El proyecto se encuentra en desarrollo, pronto se publicara y se podra ver en la web' img='/img/coming-soon.bmp' link='https://github.com/' iconos={["React", "Nodejs"]} />
+                <CardModal titulo='Coming Soon' texto='El proyecto aun no esta desarrollado' explicacion='El proyecto se encuentra en desarrollo, pronto se publicara y se podra ver en la web' img='/img/coming-soon.bmp' link='' iconos={["React", "Nodejs"]} />
+                <CardModal titulo='Coming Soon' texto='El proyecto aun no esta desarrollado' explicacion='El proyecto se encuentra en desarrollo, pronto se publicara y se podra ver en la web' img='/img/coming-soon.bmp' link='https://github.com/' iconos={["React", "Nodejs"]} />
+                <CardModal titulo='Coming Soon' texto='El proyecto aun no esta desarrollado' explicacion='El proyecto se encuentra en desarrollo, pronto se publicara y se podra ver en la web' img='/img/coming-soon.bmp' link='https://github.com/' iconos={["React", "Nodejs"]} />
+                <CardModal titulo='Coming Soon' texto='El proyecto aun no esta desarrollado' explicacion='El proyecto se encuentra en desarrollo, pronto se publicara y se podra ver en la web' img='/img/coming-soon.bmp' link='https://github.com/' iconos={["React", "Nodejs"]} />
+                <CardModal titulo='Coming Soon' texto='El proyecto aun no esta desarrollado' explicacion='El proyecto se encuentra en desarrollo, pronto se publicara y se podra ver en la web' img='/img/coming-soon.bmp' link='https://github.com/' iconos={["React", "Nodejs"]} />
             </div>
         </div>
     );
