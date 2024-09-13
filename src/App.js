@@ -3,6 +3,8 @@ import './Styles/global.css';
 import Sobremi from "./Components/sobremi";
 import Proyectos from "./Components/proyectos";
 import Tecnologias from "./Components/tecnologias";
+import Contacto from "./Components/contacto";
+import Footer from "./Components/footer";
 
 
 
@@ -35,6 +37,8 @@ function App() {
       <Sobremi></Sobremi>
       <Proyectos></Proyectos>
       <Tecnologias></Tecnologias>
+      <Contacto></Contacto>
+      <Footer></Footer>
     </div>
   );
 }
