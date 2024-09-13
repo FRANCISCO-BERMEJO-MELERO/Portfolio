@@ -5,7 +5,7 @@ import React from 'react';
 const Sobremi = () => {
     return (
         <>
-            <div className="mx-auto w-full max-w-4xl items-center justify-center mb-10 px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto w-full max-w-4xl items-center justify-center mb-10  ">
                 <div className='md:justify-start justify-center grid gap-6 mb-10 w-full'>
                     <h1 className='md:text-5xl text-3xl'>{'<'} <span className='text-zinc-50'>Sobre mi</span> {'/>'}</h1>
                     <hr className='h-1 w-full border-zinc-400'></hr>
