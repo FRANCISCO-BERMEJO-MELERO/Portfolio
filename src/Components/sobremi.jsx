@@ -5,9 +5,9 @@ import React from 'react';
 const Sobremi = () => {
     return (
         <>
-            <div className="mx-auto w-full max-w-4xl items-center justify-center mb-10  ">
+            <div className="mx-auto md:w-full w-[80%] max-w-4xl items-center justify-center mb-10  " id='sobremi'>
                 <div className='md:justify-start justify-center grid gap-6 mb-10 w-full'>
-                    <h1 className='md:text-5xl text-3xl'>{'<'} <span className='text-zinc-50'>Sobre mi</span> {'/>'}</h1>
+                    <h1 className='md:text-5xl text-3xl'>{'<'}<span className='text-zinc-50'>Sobre mi</span>{'/>'}</h1>
                     <hr className='h-1 w-full border-zinc-400'></hr>
                 </div>
                 <div className='mt-12 justify-center grid h-auto mx-auto z-10 relative p-4 w-full items-center overflow-hidden rounded-xl bg-zinc-800/30 border border-zinc-700'>
